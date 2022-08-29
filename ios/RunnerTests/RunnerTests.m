@@ -1,4 +1,4 @@
 @import XCTest;
-@import integration_test;
+@import integration_tests;
 
-INTEGRATION_TEST_IOS_RUNNER(RunnerTests)
+integration_tests_IOS_RUNNER(RunnerTests)

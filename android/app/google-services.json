@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "907442504754",
+    "firebase_url": "https://sancard-dev.firebaseio.com",
+    "project_id": "sancard-dev",
+    "storage_bucket": "sancard-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907442504754:android:40c0d82fb3bbd8055fa82b",
+        "android_client_info": {
+          "package_name": "com.exemple.integration_tests"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907442504754-fs4k65ta0svu4vcb8j1nmqf600cuc01p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj0Kx6Z6yumPoredZOb3IrmP8Se4lnkpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907442504754-fs4k65ta0svu4vcb8j1nmqf600cuc01p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "907442504754-294f3tb3dc23ndu1utaiolgefhdr7d3n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sancard.sancard"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907442504754:android:b2b8fece62ca936e5fa82b",
+        "android_client_info": {
+          "package_name": "com.sancard.sancard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907442504754-vjgi9ar61k2c47s4ikd4s33anjehh62l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sancard.sancard",
+            "certificate_hash": "0d5912572bbbfed5ceceac51e1d924d886fc8d9e"
+          }
+        },
+        {
+          "client_id": "907442504754-fs4k65ta0svu4vcb8j1nmqf600cuc01p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj0Kx6Z6yumPoredZOb3IrmP8Se4lnkpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907442504754-fs4k65ta0svu4vcb8j1nmqf600cuc01p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "907442504754-294f3tb3dc23ndu1utaiolgefhdr7d3n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sancard.sancard"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

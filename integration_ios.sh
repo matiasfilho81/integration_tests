@@ -20,14 +20,14 @@ popd
 #   --device model=ipad5,version=$dev_target,locale=en_US,orientation=portrait \
 #   --xcode-version=13.3.1 \
 #   --timeout 3m \
-#   --results-bucket=gs://integration_test.appspot.com \
+#   --results-bucket=gs://integration_tests.appspot.com \
 #   --results-dir=tests/firebase
 
-gcloud firebase test ios run --test "build/ios_integ/Build/Products/ios_tests.zip" \
-  --device model=iphone13pro,version=$dev_target,locale=en_US,orientation=portrait \
-  --xcode-version=13.3.1 \
-  --timeout 3m \
-  --results-bucket=gs://integration_test.appspot.com \
-  --results-dir=tests/firebase
+# gcloud firebase test ios run --test "build/ios_integ/Build/Products/ios_tests.zip" \
+#   --device model=iphone13pro,version=$dev_target,locale=en_US,orientation=portrait \
+#   --xcode-version=13.3.1 \
+#   --timeout 3m \
+#   --results-bucket=gs://integration_tests.appspot.com \
+#   --results-dir=tests/firebase
 
-# substitua integration_test pelo id do seu projeto no Firebase
+# substitua integration_tests pelo id do seu projeto no Firebase
