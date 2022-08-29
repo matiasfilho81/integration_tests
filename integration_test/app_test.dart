@@ -14,13 +14,13 @@ void main() {
           app.main();
           await tester.pumpAndSettle();
 
-          for (var i = 0; i < 3; i++) {
+          for (var i = 0; i < 5; i++) {
             await tester.tap(find.byIcon(Icons.plus_one));
             await Future.delayed(const Duration(seconds: 1));
           }
           await tester.pumpAndSettle();
 
-          expect(find.text('3'), findsOneWidget);
+          expect(find.text('5'), findsOneWidget);
         },
       );
     },
